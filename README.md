@@ -1,5 +1,5 @@
-Help Leonard - Android
-======================
+Help Leonard
+============
 
 Please read the User Stories and the Guidelines at the [Help Leonard project page](http://applico.github.io/Help-Leonard "Help Leonard") before you begin.
 
