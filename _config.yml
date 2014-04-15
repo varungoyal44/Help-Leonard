@@ -1,6 +1,8 @@
 name: Applico Engineering
 pygments: true
 
+markdown: kramdown
+
 exclude: [Gemfile, Gemfile.lock, Procfile, vendor]
 timezone: nil
 
