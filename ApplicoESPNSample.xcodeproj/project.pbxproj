@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59BD190190EDD02002F5D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD18F190EDD02002F5D05 /* Foundation.framework */; };
+		A59BD192190EDD02002F5D05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD191190EDD02002F5D05 /* CoreGraphics.framework */; };
+		A59BD194190EDD02002F5D05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD193190EDD02002F5D05 /* UIKit.framework */; };
+		A59BD19A190EDD02002F5D05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A59BD198190EDD02002F5D05 /* InfoPlist.strings */; };
+		A59BD19C190EDD02002F5D05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD19B190EDD02002F5D05 /* main.m */; };
+		A59BD1A0190EDD02002F5D05 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD19F190EDD02002F5D05 /* ASAppDelegate.m */; };
+		A59BD1A3190EDD02002F5D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1A1190EDD02002F5D05 /* Main.storyboard */; };
+		A59BD1A8190EDD02002F5D05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1A7190EDD02002F5D05 /* Images.xcassets */; };
+		A59BD1AF190EDD02002F5D05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD1AE190EDD02002F5D05 /* XCTest.framework */; };
+		A59BD1B0190EDD02002F5D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD18F190EDD02002F5D05 /* Foundation.framework */; };
+		A59BD1B1190EDD02002F5D05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD193190EDD02002F5D05 /* UIKit.framework */; };
+		A59BD1B9190EDD02002F5D05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1B7190EDD02002F5D05 /* InfoPlist.strings */; };
+		A59BD1BB190EDD02002F5D05 /* ApplicoESPNSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1BA190EDD02002F5D05 /* ApplicoESPNSampleTests.m */; };
+		A59BD1D0190EDD59002F5D05 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1C5190EDD59002F5D05 /* .gitignore */; };
+		A59BD1D1190EDD59002F5D05 /* mainpage.dox in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1C6190EDD59002F5D05 /* mainpage.dox */; };
+		A59BD1D2190EDD59002F5D05 /* OAuth2Token.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1C9190EDD59002F5D05 /* OAuth2Token.m */; };
+		A59BD1D3190EDD59002F5D05 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1CA190EDD59002F5D05 /* readme.md */; };
+		A59BD1D4190EDD59002F5D05 /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1CD190EDD59002F5D05 /* WebServiceManager.m */; };
+		A59BD1D5190EDD59002F5D05 /* WebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1CF190EDD59002F5D05 /* WebServiceRequest.m */; };
+		A59BD1D8190EDDAE002F5D05 /* ASMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1D7190EDDAE002F5D05 /* ASMainViewController.m */; };
+		A59BD1DA190EDE81002F5D05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD1D9190EDE81002F5D05 /* Security.framework */; };
+		A59BD1E8190EE2FC002F5D05 /* ASHeadLinesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1E7190EE2FC002F5D05 /* ASHeadLinesTableViewCell.m */; };
+		A59BD1F519102417002F5D05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD1F419102417002F5D05 /* QuartzCore.framework */; };
+		A59BD1F8191026DB002F5D05 /* ASMyTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BD1F7191026DB002F5D05 /* ASMyTeamViewController.m */; };
+		A59BD1FA191057EE002F5D05 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A59BD1F9191057EE002F5D05 /* twitter.png */; };
+		A59BD1FC191058DF002F5D05 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59BD1FB191058DF002F5D05 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A59BD1B2190EDD02002F5D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59BD184190EDD02002F5D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59BD18B190EDD02002F5D05;
+			remoteInfo = ApplicoESPNSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A59BD18C190EDD02002F5D05 /* ApplicoESPNSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicoESPNSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59BD18F190EDD02002F5D05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A59BD191190EDD02002F5D05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A59BD193190EDD02002F5D05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A59BD197190EDD02002F5D05 /* ApplicoESPNSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApplicoESPNSample-Info.plist"; sourceTree = "<group>"; };
+		A59BD199190EDD02002F5D05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A59BD19B190EDD02002F5D05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A59BD19D190EDD02002F5D05 /* ApplicoESPNSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApplicoESPNSample-Prefix.pch"; sourceTree = "<group>"; };
+		A59BD19E190EDD02002F5D05 /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		A59BD19F190EDD02002F5D05 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		A59BD1A2190EDD02002F5D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A59BD1A7190EDD02002F5D05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A59BD1AD190EDD02002F5D05 /* ApplicoESPNSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicoESPNSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59BD1AE190EDD02002F5D05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A59BD1B6190EDD02002F5D05 /* ApplicoESPNSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApplicoESPNSampleTests-Info.plist"; sourceTree = "<group>"; };
+		A59BD1B8190EDD02002F5D05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A59BD1BA190EDD02002F5D05 /* ApplicoESPNSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicoESPNSampleTests.m; sourceTree = "<group>"; };
+		A59BD1C5190EDD59002F5D05 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A59BD1C6190EDD59002F5D05 /* mainpage.dox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainpage.dox; sourceTree = "<group>"; };
+		A59BD1C7190EDD59002F5D05 /* OAuth2Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2Defines.h; sourceTree = "<group>"; };
+		A59BD1C8190EDD59002F5D05 /* OAuth2Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2Token.h; sourceTree = "<group>"; };
+		A59BD1C9190EDD59002F5D05 /* OAuth2Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuth2Token.m; sourceTree = "<group>"; };
+		A59BD1CA190EDD59002F5D05 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		A59BD1CB190EDD59002F5D05 /* WebServiceAuthProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceAuthProtocol.h; sourceTree = "<group>"; };
+		A59BD1CC190EDD59002F5D05 /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		A59BD1CD190EDD59002F5D05 /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		A59BD1CE190EDD59002F5D05 /* WebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceRequest.h; sourceTree = "<group>"; };
+		A59BD1CF190EDD59002F5D05 /* WebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceRequest.m; sourceTree = "<group>"; };
+		A59BD1D6190EDDAE002F5D05 /* ASMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMainViewController.h; sourceTree = "<group>"; };
+		A59BD1D7190EDDAE002F5D05 /* ASMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMainViewController.m; sourceTree = "<group>"; };
+		A59BD1D9190EDE81002F5D05 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A59BD1E6190EE2FC002F5D05 /* ASHeadLinesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHeadLinesTableViewCell.h; sourceTree = "<group>"; };
+		A59BD1E7190EE2FC002F5D05 /* ASHeadLinesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHeadLinesTableViewCell.m; sourceTree = "<group>"; };
+		A59BD1EB190F4129002F5D05 /* DataFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFile.h; sourceTree = "<group>"; };
+		A59BD1F419102417002F5D05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A59BD1F6191026DB002F5D05 /* ASMyTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMyTeamViewController.h; sourceTree = "<group>"; };
+		A59BD1F7191026DB002F5D05 /* ASMyTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMyTeamViewController.m; sourceTree = "<group>"; };
+		A59BD1F9191057EE002F5D05 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		A59BD1FB191058DF002F5D05 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59BD189190EDD02002F5D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59BD1FC191058DF002F5D05 /* Social.framework in Frameworks */,
+				A59BD1F519102417002F5D05 /* QuartzCore.framework in Frameworks */,
+				A59BD1DA190EDE81002F5D05 /* Security.framework in Frameworks */,
+				A59BD192190EDD02002F5D05 /* CoreGraphics.framework in Frameworks */,
+				A59BD194190EDD02002F5D05 /* UIKit.framework in Frameworks */,
+				A59BD190190EDD02002F5D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BD1AA190EDD02002F5D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59BD1AF190EDD02002F5D05 /* XCTest.framework in Frameworks */,
+				A59BD1B1190EDD02002F5D05 /* UIKit.framework in Frameworks */,
+				A59BD1B0190EDD02002F5D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59BD183190EDD02002F5D05 = {
+			isa = PBXGroup;
+			children = (
+				A59BD195190EDD02002F5D05 /* ApplicoESPNSample */,
+				A59BD196190EDD02002F5D05 /* Supporting Files */,
+				A59BD1B4190EDD02002F5D05 /* ApplicoESPNSampleTests */,
+				A59BD18E190EDD02002F5D05 /* Frameworks */,
+				A59BD18D190EDD02002F5D05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A59BD18D190EDD02002F5D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD18C190EDD02002F5D05 /* ApplicoESPNSample.app */,
+				A59BD1AD190EDD02002F5D05 /* ApplicoESPNSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59BD18E190EDD02002F5D05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD1FB191058DF002F5D05 /* Social.framework */,
+				A59BD1F419102417002F5D05 /* QuartzCore.framework */,
+				A59BD1D9190EDE81002F5D05 /* Security.framework */,
+				A59BD18F190EDD02002F5D05 /* Foundation.framework */,
+				A59BD191190EDD02002F5D05 /* CoreGraphics.framework */,
+				A59BD193190EDD02002F5D05 /* UIKit.framework */,
+				A59BD1AE190EDD02002F5D05 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59BD195190EDD02002F5D05 /* ApplicoESPNSample */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD19E190EDD02002F5D05 /* ASAppDelegate.h */,
+				A59BD19F190EDD02002F5D05 /* ASAppDelegate.m */,
+				A59BD1EB190F4129002F5D05 /* DataFile.h */,
+				A59BD1A1190EDD02002F5D05 /* Main.storyboard */,
+				A59BD1D6190EDDAE002F5D05 /* ASMainViewController.h */,
+				A59BD1D7190EDDAE002F5D05 /* ASMainViewController.m */,
+				A59BD1F6191026DB002F5D05 /* ASMyTeamViewController.h */,
+				A59BD1F7191026DB002F5D05 /* ASMyTeamViewController.m */,
+				A59BD1E6190EE2FC002F5D05 /* ASHeadLinesTableViewCell.h */,
+				A59BD1E7190EE2FC002F5D05 /* ASHeadLinesTableViewCell.m */,
+			);
+			path = ApplicoESPNSample;
+			sourceTree = "<group>";
+		};
+		A59BD196190EDD02002F5D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD1DD190EE0D6002F5D05 /* Images */,
+				A59BD1C4190EDD59002F5D05 /* applico-BorealiOS-f511bee */,
+				A59BD1A7190EDD02002F5D05 /* Images.xcassets */,
+				A59BD197190EDD02002F5D05 /* ApplicoESPNSample-Info.plist */,
+				A59BD198190EDD02002F5D05 /* InfoPlist.strings */,
+				A59BD19B190EDD02002F5D05 /* main.m */,
+				A59BD19D190EDD02002F5D05 /* ApplicoESPNSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ApplicoESPNSample;
+			sourceTree = "<group>";
+		};
+		A59BD1B4190EDD02002F5D05 /* ApplicoESPNSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD1BA190EDD02002F5D05 /* ApplicoESPNSampleTests.m */,
+				A59BD1B5190EDD02002F5D05 /* Supporting Files */,
+			);
+			path = ApplicoESPNSampleTests;
+			sourceTree = "<group>";
+		};
+		A59BD1B5190EDD02002F5D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD1B6190EDD02002F5D05 /* ApplicoESPNSampleTests-Info.plist */,
+				A59BD1B7190EDD02002F5D05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A59BD1C4190EDD59002F5D05 /* applico-BorealiOS-f511bee */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD1C5190EDD59002F5D05 /* .gitignore */,
+				A59BD1C6190EDD59002F5D05 /* mainpage.dox */,
+				A59BD1C7190EDD59002F5D05 /* OAuth2Defines.h */,
+				A59BD1C8190EDD59002F5D05 /* OAuth2Token.h */,
+				A59BD1C9190EDD59002F5D05 /* OAuth2Token.m */,
+				A59BD1CA190EDD59002F5D05 /* readme.md */,
+				A59BD1CB190EDD59002F5D05 /* WebServiceAuthProtocol.h */,
+				A59BD1CC190EDD59002F5D05 /* WebServiceManager.h */,
+				A59BD1CD190EDD59002F5D05 /* WebServiceManager.m */,
+				A59BD1CE190EDD59002F5D05 /* WebServiceRequest.h */,
+				A59BD1CF190EDD59002F5D05 /* WebServiceRequest.m */,
+			);
+			path = "applico-BorealiOS-f511bee";
+			sourceTree = "<group>";
+		};
+		A59BD1DD190EE0D6002F5D05 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A59BD1F9191057EE002F5D05 /* twitter.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59BD18B190EDD02002F5D05 /* ApplicoESPNSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59BD1BE190EDD02002F5D05 /* Build configuration list for PBXNativeTarget "ApplicoESPNSample" */;
+			buildPhases = (
+				A59BD188190EDD02002F5D05 /* Sources */,
+				A59BD189190EDD02002F5D05 /* Frameworks */,
+				A59BD18A190EDD02002F5D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplicoESPNSample;
+			productName = ApplicoESPNSample;
+			productReference = A59BD18C190EDD02002F5D05 /* ApplicoESPNSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A59BD1AC190EDD02002F5D05 /* ApplicoESPNSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59BD1C1190EDD02002F5D05 /* Build configuration list for PBXNativeTarget "ApplicoESPNSampleTests" */;
+			buildPhases = (
+				A59BD1A9190EDD02002F5D05 /* Sources */,
+				A59BD1AA190EDD02002F5D05 /* Frameworks */,
+				A59BD1AB190EDD02002F5D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59BD1B3190EDD02002F5D05 /* PBXTargetDependency */,
+			);
+			name = ApplicoESPNSampleTests;
+			productName = ApplicoESPNSampleTests;
+			productReference = A59BD1AD190EDD02002F5D05 /* ApplicoESPNSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59BD184190EDD02002F5D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Karma;
+				TargetAttributes = {
+					A59BD1AC190EDD02002F5D05 = {
+						TestTargetID = A59BD18B190EDD02002F5D05;
+					};
+				};
+			};
+			buildConfigurationList = A59BD187190EDD02002F5D05 /* Build configuration list for PBXProject "ApplicoESPNSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A59BD183190EDD02002F5D05;
+			productRefGroup = A59BD18D190EDD02002F5D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59BD18B190EDD02002F5D05 /* ApplicoESPNSample */,
+				A59BD1AC190EDD02002F5D05 /* ApplicoESPNSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A59BD18A190EDD02002F5D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59BD1D0190EDD59002F5D05 /* .gitignore in Resources */,
+				A59BD1D1190EDD59002F5D05 /* mainpage.dox in Resources */,
+				A59BD1A8190EDD02002F5D05 /* Images.xcassets in Resources */,
+				A59BD19A190EDD02002F5D05 /* InfoPlist.strings in Resources */,
+				A59BD1D3190EDD59002F5D05 /* readme.md in Resources */,
+				A59BD1FA191057EE002F5D05 /* twitter.png in Resources */,
+				A59BD1A3190EDD02002F5D05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BD1AB190EDD02002F5D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59BD1B9190EDD02002F5D05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59BD188190EDD02002F5D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59BD1E8190EE2FC002F5D05 /* ASHeadLinesTableViewCell.m in Sources */,
+				A59BD1D4190EDD59002F5D05 /* WebServiceManager.m in Sources */,
+				A59BD1D8190EDDAE002F5D05 /* ASMainViewController.m in Sources */,
+				A59BD1F8191026DB002F5D05 /* ASMyTeamViewController.m in Sources */,
+				A59BD1D5190EDD59002F5D05 /* WebServiceRequest.m in Sources */,
+				A59BD1A0190EDD02002F5D05 /* ASAppDelegate.m in Sources */,
+				A59BD1D2190EDD59002F5D05 /* OAuth2Token.m in Sources */,
+				A59BD19C190EDD02002F5D05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59BD1A9190EDD02002F5D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59BD1BB190EDD02002F5D05 /* ApplicoESPNSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A59BD1B3190EDD02002F5D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A59BD18B190EDD02002F5D05 /* ApplicoESPNSample */;
+			targetProxy = A59BD1B2190EDD02002F5D05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A59BD198190EDD02002F5D05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59BD199190EDD02002F5D05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A59BD1A1190EDD02002F5D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59BD1A2190EDD02002F5D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A59BD1B7190EDD02002F5D05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59BD1B8190EDD02002F5D05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59BD1BC190EDD02002F5D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A59BD1BD190EDD02002F5D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59BD1BF190EDD02002F5D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApplicoESPNSample/ApplicoESPNSample-Prefix.pch";
+				INFOPLIST_FILE = "ApplicoESPNSample/ApplicoESPNSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A59BD1C0190EDD02002F5D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApplicoESPNSample/ApplicoESPNSample-Prefix.pch";
+				INFOPLIST_FILE = "ApplicoESPNSample/ApplicoESPNSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A59BD1C2190EDD02002F5D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ApplicoESPNSample.app/ApplicoESPNSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApplicoESPNSample/ApplicoESPNSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ApplicoESPNSampleTests/ApplicoESPNSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A59BD1C3190EDD02002F5D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ApplicoESPNSample.app/ApplicoESPNSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApplicoESPNSample/ApplicoESPNSample-Prefix.pch";
+				INFOPLIST_FILE = "ApplicoESPNSampleTests/ApplicoESPNSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59BD187190EDD02002F5D05 /* Build configuration list for PBXProject "ApplicoESPNSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BD1BC190EDD02002F5D05 /* Debug */,
+				A59BD1BD190EDD02002F5D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59BD1BE190EDD02002F5D05 /* Build configuration list for PBXNativeTarget "ApplicoESPNSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BD1BF190EDD02002F5D05 /* Debug */,
+				A59BD1C0190EDD02002F5D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59BD1C1190EDD02002F5D05 /* Build configuration list for PBXNativeTarget "ApplicoESPNSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59BD1C2190EDD02002F5D05 /* Debug */,
+				A59BD1C3190EDD02002F5D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A59BD184190EDD02002F5D05 /* Project object */;
+}
